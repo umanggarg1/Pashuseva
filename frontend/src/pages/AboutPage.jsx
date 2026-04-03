@@ -27,7 +27,7 @@ const MILESTONES = [
 export default function AboutPage() {
   const dark = useSelector(selectDark);
   return (
-    <main className={`min-h-screen` style={{ backgroundColor: 'var(--bg-root)' }}}>
+    <main className={`min-h-screen`} style={{ backgroundColor: 'var(--bg-root)' }}>
       {/* Hero */}
       <section className={`relative py-20 px-4 sm:px-6 overflow-hidden ${dark ? '' : 'bg-gradient-to-br from-leaf-50 to-white'}`} style={dark ? { backgroundColor: 'var(--bg-section)' } : {}}>
         <div className="absolute inset-0 bg-mesh pointer-events-none" />
